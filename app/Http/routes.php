@@ -14,3 +14,11 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/lorem-ipsum', 'LoremIpsumController@getCreate');
+// Route::get('/lorem-ipsum', 'LoremIpsumController@getLoremipsum');
+Route::post('/lorem-ipsum', 'LoremIpsumController@postCreate');
+
+Route::get('/usergenerator', 'UserGeneratorController@getCreate');
+//Route::get('/usergenerator/show/{numberOfUsers}{addBirthday?}{addProfile?}', 'UserGeneratorController@getShow');
+Route::post('/usergenerator', 'UserGeneratorController@postCreate');
