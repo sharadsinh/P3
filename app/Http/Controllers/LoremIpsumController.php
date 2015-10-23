@@ -12,6 +12,7 @@ class LoremIpsumController extends Controller {
 
   public function postCreate($paragraphs=null) {
 
+    //generate lorem-ipsum paragraphs using Badcow\LoremIpsum\Generator
     $generator = new Generator();
     $paragraphs = $generator->getParagraphs($_POST['number']);
     return view('loremipsum.createAndShow')->with('paragraphs', $paragraphs);

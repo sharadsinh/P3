@@ -5,6 +5,7 @@
 @stop
 
 @section('content')
+  <!-- validation: send error messege to top of page if validation fails -->
   @if(count($errors) > 0)
       <ul>
           @foreach ($errors->all() as $error)
