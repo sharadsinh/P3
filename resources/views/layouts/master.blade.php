@@ -19,7 +19,7 @@
     <div class="navbar navbar-fixed-top">
    <div class="navbar-inner">
      <div class="container">
-        <a class="navbar-brand" href="/"> <img src="/img/logo.png"></a>
+        <a class="navbar-brand" alt="Learn4Ever" href="/"> <img src="/img/logo.png"></a>
      </div>
    </div>
  </div>
