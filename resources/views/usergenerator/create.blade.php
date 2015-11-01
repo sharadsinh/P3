@@ -17,7 +17,7 @@
 <form method="post" action="/usergenerator">
   <input type='hidden' name='_token' value='{{ csrf_token() }}'>
   <label for="numberOfUsers">How many users?</label>
-  <input type="text" class="numberOfUsers" autofocus="autofocus" name="numberOfUsers" id="numberOfUsers" value=" "> (Max 99)
+  <input type="text" class="numberOfUsers" autofocus="autofocus" name="numberOfUsers" id="numberOfUsers"> (Max 99)
   <br>
 
   Include...
